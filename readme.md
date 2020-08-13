@@ -8,4 +8,4 @@ A script to reach the philosophy wiki page starting from a random wiki page. The
 - In you code editor's terminal run the following:
 1. Install requests and Beautiful Soup through `pip install requests` and `pip install beautifulsoup4`.
 3. Navigate into the project's directory `cd 'Philosphy crawler'`.
-6.  Run the project `py crawler.py`.
+6.  Run the project `python crawler.py`.
