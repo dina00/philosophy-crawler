@@ -12,15 +12,14 @@ A script to reach the philosophy wiki page starting from a random wiki page. The
 3.  Run the project `python crawler.py`.
 ## Test Run
 - You can leave the starting url to random or choose a wiki page youself.
-`Starting...
-https://en.wikipedia.org/wiki/The_Beatles
-https://en.wikipedia.org/wiki/Rock_music
-https://en.wikipedia.org/wiki/Popular_music
-https://en.wikipedia.org/wiki/Music
-https://en.wikipedia.org/wiki/The_arts#Music
-https://en.wikipedia.org/wiki/Creativity
-https://en.wikipedia.org/wiki/Idea
-We've found the target article! It only took us 8 times`
+`https://en.wikipedia.org/wiki/The_Beatles`
+`https://en.wikipedia.org/wiki/Rock_music`
+`https://en.wikipedia.org/wiki/Popular_music`
+`https://en.wikipedia.org/wiki/Music`
+`https://en.wikipedia.org/wiki/The_arts#Music`
+`https://en.wikipedia.org/wiki/Creativity`
+`https://en.wikipedia.org/wiki/Idea`
+`We've found the target article! It only took us 8 times`
 ### Note
 - I ran into a dead end with the [Greek Language](https://en.wikipedia.org/wiki/Greek_language) wiki page as there was an additional class associated with first link tag. I added a condition to avoid that. Refer [here](https://www.crummy.com/software/BeautifulSoup/bs4/doc/#kinds-of-filters) for examples for filtering.
 - Make sure to check the DOM tree of the page if you run into any unexpected behavior.
