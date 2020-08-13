@@ -11,7 +11,7 @@ A script to reach the philosophy wiki page starting from a random wiki page. The
 2. Navigate into the project's directory `cd 'Philosphy crawler'`.
 3.  Run the project `python crawler.py`.
 ## Test Run
-- You can leave the starting url to random or choose a wiki page youself.
+- You can leave the starting url to random or choose a wiki page youself.  
 `Starting...`  
 `https://en.wikipedia.org/wiki/The_Beatles`  
 `https://en.wikipedia.org/wiki/Rock_music`  
